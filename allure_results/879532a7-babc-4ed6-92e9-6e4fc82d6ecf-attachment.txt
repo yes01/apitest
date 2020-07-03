@@ -1,0 +1,11 @@
+[32mINFO    [0m request:request.py:29 请求ID：1
+[32mINFO    [0m request:request.py:30 请求信息：account/websignin(密码为空)
+[32mINFO    [0m request:request.py:31 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/account/websignin
+[32mINFO    [0m request:request.py:32 请求头：None
+[32mINFO    [0m request:request.py:33 请求数据：{"text":"0.0012@qq.com","password":""}
+[32mINFO    [0m settoken:set_token.py:12 请求头：None
+[32mINFO    [0m request:request.py:14 最终请求头：None
+[32mINFO    [0m request:request.py:15 最终请求数据：{"text":"0.0012@qq.com","password":""}
+[32mINFO    [0m request:request.py:18 响应数据：{"code":99,"message":"必須填寫密碼;密碼最少包含 8 個字符","result":null}
+[32mINFO    [0m assert:Assert.py:9 期待结果："code":99
+[32mINFO    [0m assert:Assert.py:11 断言成功！

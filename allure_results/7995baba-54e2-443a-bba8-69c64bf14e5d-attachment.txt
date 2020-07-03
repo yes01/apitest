@@ -1,0 +1,15 @@
+[32mINFO    [0m updateusername:test_updateusername.py:23 请求数据：{"authorization":"Bearer "}
+[32mINFO    [0m request:request.py:29 请求ID：2
+[32mINFO    [0m request:request.py:30 请求信息：user/updateUserName(昵称为空)
+[32mINFO    [0m request:request.py:31 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/user/updateUserName
+[32mINFO    [0m request:request.py:32 请求头：{"authorization":"Bearer "}
+[32mINFO    [0m request:request.py:33 请求数据：{"newUserName":""}
+[32mINFO    [0m gettoken:get_token.py:16 --------------------------------------------------
+[32mINFO    [0m gettoken:get_token.py:17 准备前置条件：
+[32mINFO    [0m gettoken:get_token.py:18 1.开始获取accessToken
+[32mINFO    [0m gettoken:get_token.py:23 2.获取accessToken成功
+[32mINFO    [0m request:request.py:14 最终请求头：{'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEuMjIyMjkiLCJuYW1laWQiOjEwMDAwNDc4OCwiR2FtZUlkIjoiMCIsInN1YiI6IjEuMjIyMjkiLCJqdGkiOiJjNjNmYjc5ZS1lZWYxLTQwMTAtYTlmNS05NDc1OGZmYzIxYTMiLCJpYXQiOjE1OTM3NjE1ODksIm5iZiI6MTU5Mzc2MTU4OSwiZXhwIjoxNTkzNzYxODg5LCJpc3MiOiJDcmF6eUN1YmUiLCJhdWQiOiJBbnlvbmUifQ.0BznTMrAuhiPM-FpvkkkVtDa4hQnrTyevL7l2VVcJko'}
+[32mINFO    [0m request:request.py:15 最终请求数据：{"newUserName":""}
+[32mINFO    [0m request:request.py:18 响应数据：{"code":99,"message":"The NewUserName field is required.;The field NewUserName must be a string or array type with a minimum length of '1'.","result":null}
+[32mINFO    [0m assert:Assert.py:9 期待结果："code":99
+[32mINFO    [0m assert:Assert.py:11 断言成功！
