@@ -19,10 +19,14 @@ class RunMethod:
         return lrt
         # return json.dumps(res, indent=2, ensure_ascii=False)
 
-    def get_main(self, url, id, info, data, header):
-        res = requests.get(url=url, data=data, headers=header)
-        logger.info('响应数据：%s' % res)
-        return json.dumps(res)
+    def get_main(self, url, data, header=None):
+        headers = SetToken().set_token(header)
+        logger.info('最终请求头：%s' % headers)
+        logger.info('最终请求数据：%s' % data)
+        res = requests.get(url=url, json=json.loads(data), headers=headers)
+        lrt = res.text
+        logger.info('响应数据：%s' % lrt)
+        return lrt
         # return json.dumps(res, indent=2, ensure_ascii=False)
 
     def run_main(self, method, url, id, info, data=None, header=None):
@@ -34,5 +38,5 @@ class RunMethod:
         if method == 'post':
             res = self.post_main(url, data, header)
         else:
-            res = self.get_main(url, json.dumps(data), header)
+            res = self.get_main(url, data, header)
         return res
