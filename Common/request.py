@@ -10,7 +10,7 @@ logger = Logger(logger="request").getlog()
 class RunMethod:
     @allure.step('获取数据发送请求')
     def post_main(self, url, data, header=None):
-        headers = SetToken().set_token(header)
+        headers = SetToken().set_token(header, data)
         logger.info('最终请求头：%s' % headers)
         logger.info('最终请求数据：%s' % data)
         res = requests.post(url=url, json=json.loads(data), headers=headers)
@@ -20,7 +20,7 @@ class RunMethod:
         # return json.dumps(res, indent=2, ensure_ascii=False)
 
     def get_main(self, url, data, header=None):
-        headers = SetToken().set_token(header)
+        headers = SetToken().set_token(header, data)
         logger.info('最终请求头：%s' % headers)
         logger.info('最终请求数据：%s' % data)
         res = requests.get(url=url, json=json.loads(data), headers=headers)

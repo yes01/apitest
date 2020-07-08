@@ -17,6 +17,7 @@ class GetToken:
         logger.info('准备前置条件：')
         logger.info('1.开始获取accessToken')
         try:
+            logger.info(type(json.loads(self.data)))
             res = requests.post(url=self.url, json=json.loads(self.data)).text
             res = json.loads(res)  # 转化为字典
             token = res["result"]["accessToken"]  # 拿到accessToken
