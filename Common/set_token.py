@@ -14,7 +14,7 @@ class SetToken:
                 headerss = GetCaptcha().get_accessToken()
                 return headerss
             else:
-                logger.info('请求头111：%s' % header)
+                logger.info('请求头：%s' % header)
         else:
             content = json.loads(header)
             text = content.get('authorization')

@@ -5,6 +5,7 @@ from Common.Yaml import Yaml
 from Common.Assert import Assert
 from Common.get_captcha import GetCaptcha
 from Common.request import RunMethod
+from Common.set_sql import SetSql
 from Common.logger import Logger
 import allure
 
@@ -27,4 +28,6 @@ class TestAccount:
         body = GetCaptcha().get_captcha(api_data)
         res = RunMethod().run_main(method, url, id, info, body, headers)
         Assert().is_in(expect, res)
+        SetSql().connect_database_update()
+
 

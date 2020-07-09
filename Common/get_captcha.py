@@ -57,15 +57,14 @@ class GetCaptcha:
     def get_captchabody(self):
         data = Yaml().get_yaml_data('login.yaml')
         text = data['text']
-        scene = data['scene']
         find = "@"
         if find in text:
-            body = dict(text=text, scene=scene)
+            body = dict(text=text, scene='2')
             return body
 
         else:
             countryCode = data['countryCode']
-            body = dict(text=text, scene=scene, countryCode=countryCode)
+            body = dict(text=text, scene='2', countryCode=countryCode)
             return body
 
 
