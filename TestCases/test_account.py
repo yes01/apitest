@@ -28,6 +28,6 @@ class TestAccount:
         body = GetCaptcha().get_captcha(api_data)
         res = RunMethod().run_main(method, url, id, info, body, headers)
         Assert().is_in(expect, res)
-        SetSql().connect_database_update()
+        SetSql().connect_database_updateBind()
 
 

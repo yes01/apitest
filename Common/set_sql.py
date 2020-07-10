@@ -7,7 +7,7 @@ logger = Logger(logger="setSql").getlog()
 
 class SetSql:
 
-    def connect_database_update(self):
+    def connect_database_updateBind(self):
         connect = pymysql.Connect(
             host='8.210.102.39',
             port=31007,

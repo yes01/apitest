@@ -1,0 +1,61 @@
+2020-07-10 10:37:00,795 - excel - INFO - 开始解析 account 表格的数据...
+2020-07-10 10:37:00,808 - getdata - INFO - account 表格本次允许执行的用例个数为3
+2020-07-10 10:37:00,816 - excel - INFO - 开始解析 login 表格的数据...
+2020-07-10 10:37:00,821 - getdata - INFO - login 表格本次允许执行的用例个数为2
+2020-07-10 10:37:00,827 - excel - INFO - 开始解析 user 表格的数据...
+2020-07-10 10:37:00,831 - getdata - INFO - user 表格本次允许执行的用例个数为0
+2020-07-10 10:37:01,260 - request - INFO - 请求ID：1
+2020-07-10 10:37:01,261 - request - INFO - 请求信息：account/bind(正常绑定手机号)
+2020-07-10 10:37:01,261 - request - INFO - 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/account/bind
+2020-07-10 10:37:01,261 - request - INFO - 请求头：None
+2020-07-10 10:37:01,262 - request - INFO - 请求数据：{"text": "66664548", "countryCode": "+853", "bindType": 2, "authenticationCode": "27S9WS"}
+2020-07-10 10:37:01,521 - request - INFO - 最终请求头：{'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXIwNjM3MzA0MzA4IiwibmFtZWlkIjoxMDAwMDQ4MTAsIkdhbWVJZCI6IjAiLCJzdWIiOiJ1c2VyMDYzNzMwNDMwOCIsImp0aSI6IjIyYWE1NzVmLWRmNGMtNGM2Ny1iODc2LTRhZDQ4OTFhNDdiNSIsImlhdCI6MTU5NDM0ODYyMiwibmJmIjoxNTk0MzQ4NjIyLCJleHAiOjE1OTQzNDg5MjIsImlzcyI6IkNyYXp5Q3ViZSIsImF1ZCI6IkFueW9uZSJ9.N8NdAdSjF3sqUdpNHR068zExAsXspK3MWQ4QZmN69K8'}
+2020-07-10 10:37:01,522 - request - INFO - 最终请求数据：{"text": "66664548", "countryCode": "+853", "bindType": 2, "authenticationCode": "27S9WS"}
+2020-07-10 10:37:01,689 - request - INFO - 响应数据：{"code":1,"message":null,"result":null}
+2020-07-10 10:37:01,689 - assert - INFO - 期待结果："code":1
+2020-07-10 10:37:01,690 - assert - INFO - 断言成功！
+2020-07-10 10:37:02,838 - setSql - INFO - CubeAgePlatform数据库进行update操作【执行成功】
+2020-07-10 10:37:04,397 - request - INFO - 请求ID：2
+2020-07-10 10:37:04,398 - request - INFO - 请求信息：account/bind(正常绑定邮箱)
+2020-07-10 10:37:04,398 - request - INFO - 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/account/bind
+2020-07-10 10:37:04,398 - request - INFO - 请求头：None
+2020-07-10 10:37:04,398 - request - INFO - 请求数据：{"text": "1.25@qq.com", "bindType": 1, "authenticationCode": "DJPEHS"}
+2020-07-10 10:37:04,549 - request - INFO - 最终请求头：{'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXI5NzU0ODI4NjAxIiwibmFtZWlkIjoxMDAwMDQ4MTYsIkdhbWVJZCI6IjAiLCJzdWIiOiJ1c2VyOTc1NDgyODYwMSIsImp0aSI6IjdhMTJhZjAzLTVkY2YtNGQ3MS05ZTM2LTE3MDZjYjFmNTY3NCIsImlhdCI6MTU5NDM0ODYyNSwibmJmIjoxNTk0MzQ4NjI1LCJleHAiOjE1OTQzNDg5MjUsImlzcyI6IkNyYXp5Q3ViZSIsImF1ZCI6IkFueW9uZSJ9.yMbmKeKQrnL-KP7p2YCZE8PkOH_14zcIkTFh41Qn1aQ'}
+2020-07-10 10:37:04,550 - request - INFO - 最终请求数据：{"text": "1.25@qq.com", "bindType": 1, "authenticationCode": "DJPEHS"}
+2020-07-10 10:37:04,683 - request - INFO - 响应数据：{"code":1,"message":null,"result":null}
+2020-07-10 10:37:04,683 - assert - INFO - 期待结果："code":1
+2020-07-10 10:37:04,683 - assert - INFO - 断言成功！
+2020-07-10 10:37:05,836 - setSql - INFO - CubeAgePlatform数据库进行update操作【执行成功】
+2020-07-10 10:37:06,261 - request - INFO - 请求ID：3
+2020-07-10 10:37:06,261 - request - INFO - 请求信息：account/bind(绑定类型为Facebook)
+2020-07-10 10:37:06,261 - request - INFO - 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/account/bind
+2020-07-10 10:37:06,261 - request - INFO - 请求头：None
+2020-07-10 10:37:06,261 - request - INFO - 请求数据：{"text": "66664546", "countryCode": "+853", "bindType": 4, "authenticationCode": "MARRRH"}
+2020-07-10 10:37:06,399 - request - INFO - 最终请求头：{'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXIwMTQ2NTY4MjcyIiwibmFtZWlkIjoxMDAwMDQ4MDgsIkdhbWVJZCI6IjAiLCJzdWIiOiJ1c2VyMDE0NjU2ODI3MiIsImp0aSI6IjBiNzk4MDIxLTliYTgtNGVmNS1iNWVjLTJjNGU4YzBlNzNjMSIsImlhdCI6MTU5NDM0ODYyNywibmJmIjoxNTk0MzQ4NjI3LCJleHAiOjE1OTQzNDg5MjcsImlzcyI6IkNyYXp5Q3ViZSIsImF1ZCI6IkFueW9uZSJ9.ls0rwG9a3y-z5pSo60T5KI7_Sy1nkU74ul1vBxK8fLc'}
+2020-07-10 10:37:06,400 - request - INFO - 最终请求数据：{"text": "66664546", "countryCode": "+853", "bindType": 4, "authenticationCode": "MARRRH"}
+2020-07-10 10:37:06,611 - request - INFO - 响应数据：{"code":500,"message":"Google驗證失敗[Exception]","result":null}
+2020-07-10 10:37:06,612 - assert - INFO - 期待结果："code":500
+2020-07-10 10:37:06,612 - assert - INFO - 断言成功！
+2020-07-10 10:37:07,759 - setSql - INFO - CubeAgePlatform数据库进行update操作【执行成功】
+2020-07-10 10:37:07,942 - request - INFO - 请求ID：1
+2020-07-10 10:37:07,943 - request - INFO - 请求信息：account/websignin(正常登录)
+2020-07-10 10:37:07,943 - request - INFO - 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/account/websignin
+2020-07-10 10:37:07,944 - request - INFO - 请求头：None
+2020-07-10 10:37:07,944 - request - INFO - 请求数据：{"text":"0.0012@qq.com","password":"12345678"}
+2020-07-10 10:37:07,944 - settoken - INFO - 请求头：None
+2020-07-10 10:37:07,944 - request - INFO - 最终请求头：None
+2020-07-10 10:37:07,944 - request - INFO - 最终请求数据：{"text":"0.0012@qq.com","password":"12345678"}
+2020-07-10 10:37:08,119 - request - INFO - 响应数据：{"code":1,"message":null,"result":{"userId":100004788,"userName":"1.22229","accountName":"","email":"0.0012@qq.com","phone":"","avatar":"","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEuMjIyMjkiLCJuYW1laWQiOjEwMDAwNDc4OCwiR2FtZUlkIjoiMCIsInN1YiI6IjEuMjIyMjkiLCJqdGkiOiI3ZWNiNjIxMS02YmU1LTQwN2MtOTBkOC1lNDU0OWM0NzFiNTAiLCJpYXQiOjE1OTQzNDg2MjgsIm5iZiI6MTU5NDM0ODYyOCwiZXhwIjoxNTk0MzQ4OTI4LCJpc3MiOiJDcmF6eUN1YmUiLCJhdWQiOiJBbnlvbmUifQ.9TbpIrHvnixAvkBX-61T-5onqerenSdV4_DQW6TrOt4","refreshToken":"O0tzhPMmBcdhK4ck9aQq7YQGMK17zirx6+LSioHHmvw=","signInToken":"","payToken":"","isNewUserRegistration":false,"accountScore":20,"isGuest":false,"languageType":1,"currencyCode":"CNY","balance":0.0000}}
+2020-07-10 10:37:08,120 - assert - INFO - 期待结果："code":1
+2020-07-10 10:37:08,121 - assert - INFO - 断言成功！
+2020-07-10 10:37:08,126 - request - INFO - 请求ID：1
+2020-07-10 10:37:08,126 - request - INFO - 请求信息：account/websignin(密码为空)
+2020-07-10 10:37:08,126 - request - INFO - 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/account/websignin
+2020-07-10 10:37:08,127 - request - INFO - 请求头：None
+2020-07-10 10:37:08,127 - request - INFO - 请求数据：{"text":"0.0012@qq.com","password":""}
+2020-07-10 10:37:08,127 - settoken - INFO - 请求头：None
+2020-07-10 10:37:08,127 - request - INFO - 最终请求头：None
+2020-07-10 10:37:08,127 - request - INFO - 最终请求数据：{"text":"0.0012@qq.com","password":""}
+2020-07-10 10:37:08,252 - request - INFO - 响应数据：{"code":99,"message":"必須填寫密碼;密碼最少包含 8 個字符","result":null}
+2020-07-10 10:37:08,252 - assert - INFO - 期待结果："code":99
+2020-07-10 10:37:08,252 - assert - INFO - 断言成功！
