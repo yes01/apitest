@@ -420,7 +420,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 22-Jul-2020 at 15:13:24 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <p>Report generated on 04-Sep-2020 at 18:05:18 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -444,8 +444,8 @@ function filter_table(elem) {
     <h2>Summary</h2>
     <p>所属部门: 研发部平台组</p>
     <p>测试人员: 李翔</p>
-    <p>12 tests ran in 10.33 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">12 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
+    <p>1 tests ran in 1.16 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">2 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -455,240 +455,40 @@ function filter_table(elem) {
           <th class="sortable numeric" col="duration">Duration</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="3">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="passed results-table-row">
+      <tbody class="skipped results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_account.py::TestAccount::test_account[接口序列：1.0---&gt;请求信息:account/bind(正常绑定手机号)]</td>
-          <td class="col-duration">2.86</td></tr>
-        <tr>
-          <td class="extra" colspan="3">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m request:request.py:33 请求ID：1
-[32mINFO    [0m request:request.py:34 请求信息：account/bind(正常绑定手机号)
-[32mINFO    [0m request:request.py:35 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/account/bind
-[32mINFO    [0m request:request.py:36 请求头：None
-[32mINFO    [0m request:request.py:37 请求数据：{&quot;text&quot;: &quot;66664548&quot;, &quot;countryCode&quot;: &quot;+853&quot;, &quot;bindType&quot;: 2, &quot;authenticationCode&quot;: &quot;WGYFFX&quot;}
-[32mINFO    [0m request:request.py:14 最终请求头：{&#x27;authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXIwNjM3MzA0MzA4IiwibmFtZWlkIjoxMDAwMDQ4MTAsIkdhbWVJZCI6IjAiLCJzdWIiOiJ1c2VyMDYzNzMwNDMwOCIsImp0aSI6IjYzMzg3YjZjLTYyMWItNDYxMy04OTc5LTA5MDRmMmVjNTE1ZiIsImlhdCI6MTU5NTQwMTk4NiwibmJmIjoxNTk1NDAxOTg2LCJleHAiOjE1OTU0MDIyODYsImlzcyI6IkNyYXp5Q3ViZSIsImF1ZCI6IkFueW9uZSJ9.PXaPkiNN93Y2DR-Oa59HoNGSh4Y363jODNCAe_gv0vA&#x27;}
-[32mINFO    [0m request:request.py:15 最终请求数据：{&quot;text&quot;: &quot;66664548&quot;, &quot;countryCode&quot;: &quot;+853&quot;, &quot;bindType&quot;: 2, &quot;authenticationCode&quot;: &quot;WGYFFX&quot;}
-[32mINFO    [0m request:request.py:18 响应数据：{&quot;code&quot;:1,&quot;message&quot;:null,&quot;result&quot;:null}
-[32mINFO    [0m assert:Assert.py:9 期待结果：&quot;code&quot;:1
-[32mINFO    [0m assert:Assert.py:11 断言成功！
-[32mINFO    [0m setSql:set_sql.py:24 CubeAgePlatform数据库进行update操作【执行成功】<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_account.py::TestAccount::test_account[接口序列：2.0---&gt;请求信息:account/bind(正常绑定邮箱)]</td>
-          <td class="col-duration">2.98</td></tr>
+          <td class="col-result">Skipped</td>
+          <td class="col-name">TestCases/test_account.py::TestAccount::test_account[data0]::setup</td>
+          <td class="col-duration">0.00</td></tr>
         <tr>
           <td class="extra" colspan="3">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m request:request.py:33 请求ID：2
-[32mINFO    [0m request:request.py:34 请求信息：account/bind(正常绑定邮箱)
-[32mINFO    [0m request:request.py:35 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/account/bind
-[32mINFO    [0m request:request.py:36 请求头：None
-[32mINFO    [0m request:request.py:37 请求数据：{&quot;text&quot;: &quot;1.25@qq.com&quot;, &quot;bindType&quot;: 1, &quot;authenticationCode&quot;: &quot;EGVFZP&quot;}
-[32mINFO    [0m request:request.py:14 最终请求头：{&#x27;authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXI5NzU0ODI4NjAxIiwibmFtZWlkIjoxMDAwMDQ4MTYsIkdhbWVJZCI6IjAiLCJzdWIiOiJ1c2VyOTc1NDgyODYwMSIsImp0aSI6ImY4ZDFhYWE0LThhNWUtNDI4Zi1iN2RmLWJmOTQwMzczM2IwZCIsImlhdCI6MTU5NTQwMTk4OSwibmJmIjoxNTk1NDAxOTg5LCJleHAiOjE1OTU0MDIyODksImlzcyI6IkNyYXp5Q3ViZSIsImF1ZCI6IkFueW9uZSJ9.NaF99s7gQ5qqSb2CI49CRSioWUDgC2P1oSXyY3pSAAw&#x27;}
-[32mINFO    [0m request:request.py:15 最终请求数据：{&quot;text&quot;: &quot;1.25@qq.com&quot;, &quot;bindType&quot;: 1, &quot;authenticationCode&quot;: &quot;EGVFZP&quot;}
-[32mINFO    [0m request:request.py:18 响应数据：{&quot;code&quot;:1,&quot;message&quot;:null,&quot;result&quot;:null}
-[32mINFO    [0m assert:Assert.py:9 期待结果：&quot;code&quot;:1
-[32mINFO    [0m assert:Assert.py:11 断言成功！
-[32mINFO    [0m setSql:set_sql.py:24 CubeAgePlatform数据库进行update操作【执行成功】<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
+            <div class="log">(&#x27;TestCases\\test_account.py&#x27;, 22, &quot;Skipped: got empty parameter set [&#x27;data&#x27;], function test_account at C:\\workspace\\apitest\\TestCases\\test_account.py:21&quot;)<br/></div></td></tr></tbody>
+      <tbody class="skipped results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_account.py::TestAccount::test_account[接口序列：3.0---&gt;请求信息:account/bind(绑定类型为Facebook)]</td>
-          <td class="col-duration">1.86</td></tr>
+          <td class="col-result">Skipped</td>
+          <td class="col-name">TestCases/test_login.py::TestLogin::test_login[data0]::setup</td>
+          <td class="col-duration">0.00</td></tr>
         <tr>
           <td class="extra" colspan="3">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m request:request.py:33 请求ID：3
-[32mINFO    [0m request:request.py:34 请求信息：account/bind(绑定类型为Facebook)
-[32mINFO    [0m request:request.py:35 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/account/bind
-[32mINFO    [0m request:request.py:36 请求头：None
-[32mINFO    [0m request:request.py:37 请求数据：{&quot;text&quot;: &quot;66664546&quot;, &quot;countryCode&quot;: &quot;+853&quot;, &quot;bindType&quot;: 4, &quot;authenticationCode&quot;: &quot;7DH3NB&quot;}
-[32mINFO    [0m request:request.py:14 最终请求头：{&#x27;authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXIwMTQ2NTY4MjcyIiwibmFtZWlkIjoxMDAwMDQ4MDgsIkdhbWVJZCI6IjAiLCJzdWIiOiJ1c2VyMDE0NjU2ODI3MiIsImp0aSI6IjBiYTNkMWQyLWNjZjctNGVmZS04MTdmLTAwNDFiMmIwYTNhMCIsImlhdCI6MTU5NTQwMTk5MSwibmJmIjoxNTk1NDAxOTkxLCJleHAiOjE1OTU0MDIyOTEsImlzcyI6IkNyYXp5Q3ViZSIsImF1ZCI6IkFueW9uZSJ9.XYc4-Y7MkqMqgHqrbyDGt4vhKjynjPBfP42hHQMxTdM&#x27;}
-[32mINFO    [0m request:request.py:15 最终请求数据：{&quot;text&quot;: &quot;66664546&quot;, &quot;countryCode&quot;: &quot;+853&quot;, &quot;bindType&quot;: 4, &quot;authenticationCode&quot;: &quot;7DH3NB&quot;}
-[32mINFO    [0m request:request.py:18 响应数据：{&quot;code&quot;:500,&quot;message&quot;:&quot;Google驗證失敗[Exception]&quot;,&quot;result&quot;:null}
-[32mINFO    [0m assert:Assert.py:9 期待结果：&quot;code&quot;:500
-[32mINFO    [0m assert:Assert.py:11 断言成功！
-[32mINFO    [0m setSql:set_sql.py:24 CubeAgePlatform数据库进行update操作【执行成功】<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_login.py::TestLogin::test_login[接口序列：1.0---&gt;请求信息:account/websignin(正常登录)]</td>
-          <td class="col-duration">0.16</td></tr>
-        <tr>
-          <td class="extra" colspan="3">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m request:request.py:33 请求ID：1
-[32mINFO    [0m request:request.py:34 请求信息：account/websignin(正常登录)
-[32mINFO    [0m request:request.py:35 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/account/websignin
-[32mINFO    [0m request:request.py:36 请求头：None
-[32mINFO    [0m request:request.py:37 请求数据：{&quot;text&quot;:&quot;0.0012@qq.com&quot;,&quot;password&quot;:&quot;123456789&quot;}
-[32mINFO    [0m settoken:set_token.py:17 请求头：None
-[32mINFO    [0m request:request.py:14 最终请求头：None
-[32mINFO    [0m request:request.py:15 最终请求数据：{&quot;text&quot;:&quot;0.0012@qq.com&quot;,&quot;password&quot;:&quot;123456789&quot;}
-[32mINFO    [0m request:request.py:18 响应数据：{&quot;code&quot;:1,&quot;message&quot;:null,&quot;result&quot;:{&quot;userId&quot;:100004788,&quot;userName&quot;:&quot;1.22249&quot;,&quot;accountName&quot;:&quot;&quot;,&quot;email&quot;:&quot;0.0012@qq.com&quot;,&quot;phone&quot;:&quot;&quot;,&quot;avatar&quot;:&quot;&quot;,&quot;accessToken&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEuMjIyNDkiLCJuYW1laWQiOjEwMDAwNDc4OCwiR2FtZUlkIjoiMCIsInN1YiI6IjEuMjIyNDkiLCJqdGkiOiJhZjA2ZmFiOS05MDFhLTQzMjAtOTI5Ni03MTA2OTkxOWRkNDQiLCJpYXQiOjE1OTU0MDE5OTMsIm5iZiI6MTU5NTQwMTk5MywiZXhwIjoxNTk1NDAyMjkzLCJpc3MiOiJDcmF6eUN1YmUiLCJhdWQiOiJBbnlvbmUifQ.LEj2m5Aho2AvnHg34uqKK_P80t4T8xHQrEm9my-lwWc&quot;,&quot;refreshToken&quot;:&quot;2uqI/Y6R54/sNhhHzcv8eUDbRHUbFqcCnuHoIMSK7xY=&quot;,&quot;signInToken&quot;:&quot;&quot;,&quot;payToken&quot;:&quot;&quot;,&quot;isNewUserRegistration&quot;:false,&quot;accountScore&quot;:20,&quot;isGuest&quot;:false,&quot;languageType&quot;:1,&quot;currencyCode&quot;:&quot;CNY&quot;,&quot;balance&quot;:0.0000}}
-[32mINFO    [0m assert:Assert.py:9 期待结果：&quot;code&quot;:1
-[32mINFO    [0m assert:Assert.py:11 断言成功！<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_login.py::TestLogin::test_login[接口序列：2.0---&gt;请求信息:account/websignin(密码为空)]</td>
-          <td class="col-duration">0.11</td></tr>
-        <tr>
-          <td class="extra" colspan="3">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m request:request.py:33 请求ID：2
-[32mINFO    [0m request:request.py:34 请求信息：account/websignin(密码为空)
-[32mINFO    [0m request:request.py:35 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/account/websignin
-[32mINFO    [0m request:request.py:36 请求头：None
-[32mINFO    [0m request:request.py:37 请求数据：{&quot;text&quot;:&quot;0.0012@qq.com&quot;,&quot;password&quot;:&quot;&quot;}
-[32mINFO    [0m settoken:set_token.py:17 请求头：None
-[32mINFO    [0m request:request.py:14 最终请求头：None
-[32mINFO    [0m request:request.py:15 最终请求数据：{&quot;text&quot;:&quot;0.0012@qq.com&quot;,&quot;password&quot;:&quot;&quot;}
-[32mINFO    [0m request:request.py:18 响应数据：{&quot;code&quot;:99,&quot;message&quot;:&quot;必須填寫密碼;密碼最少包含 8 個字符&quot;,&quot;result&quot;:null}
-[32mINFO    [0m assert:Assert.py:9 期待结果：&quot;code&quot;:99
-[32mINFO    [0m assert:Assert.py:11 断言成功！<br/></div></td></tr></tbody>
+            <div class="log">(&#x27;TestCases\\test_login.py&#x27;, 18, &quot;Skipped: got empty parameter set [&#x27;data&#x27;], function test_login at C:\\workspace\\apitest\\TestCases\\test_login.py:17&quot;)<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_user.py::TestUser::test_user[接口序列：1.0---&gt;请求信息:user/updateUserName(正常修改用户昵称)]</td>
-          <td class="col-duration">0.29</td></tr>
+          <td class="col-duration">0.79</td></tr>
         <tr>
           <td class="extra" colspan="3">
             <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m request:request.py:33 请求ID：1
 [32mINFO    [0m request:request.py:34 请求信息：user/updateUserName(正常修改用户昵称)
 [32mINFO    [0m request:request.py:35 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/user/updateUserName
 [32mINFO    [0m request:request.py:36 请求头：{&quot;authorization&quot;:&quot;Bearer &quot;}
-[32mINFO    [0m request:request.py:37 请求数据：{&quot;newUserName&quot;:&quot;1.22259&quot;}
+[32mINFO    [0m request:request.py:37 请求数据：{&quot;newUserName&quot;:&quot;1.22269&quot;}
 [32mINFO    [0m gettoken:get_token.py:16 --------------------------------------------------
 [32mINFO    [0m gettoken:get_token.py:17 准备前置条件：
 [32mINFO    [0m gettoken:get_token.py:18 1.开始获取accessToken
 [32mINFO    [0m gettoken:get_token.py:23 2.获取accessToken成功
-[32mINFO    [0m request:request.py:14 最终请求头：{&#x27;authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEuMjIyNDkiLCJuYW1laWQiOjEwMDAwNDc4OCwiR2FtZUlkIjoiMCIsInN1YiI6IjEuMjIyNDkiLCJqdGkiOiJmMGU5ODc4Zi00NGQyLTQ2YmEtOGI3Ny1iMDU5NzJiMDY3YzEiLCJpYXQiOjE1OTU0MDE5OTMsIm5iZiI6MTU5NTQwMTk5MywiZXhwIjoxNTk1NDAyMjkzLCJpc3MiOiJDcmF6eUN1YmUiLCJhdWQiOiJBbnlvbmUifQ.snI7So3vmCq0Y20BjVo14ceGryhyFgv2VvWmoRIvyKM&#x27;}
-[32mINFO    [0m request:request.py:15 最终请求数据：{&quot;newUserName&quot;:&quot;1.22259&quot;}
+[32mINFO    [0m request:request.py:14 最终请求头：{&#x27;authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEuMjIyNjkiLCJuYW1laWQiOjEwMDAwNDc4OCwiR2FtZUlkIjoiMCIsInN1YiI6IjEuMjIyNjkiLCJqdGkiOiI3NzFjMDIyYy0zZWQwLTQyMmMtYjQzMy05M2ZjYzZkOGJjN2IiLCJpYXQiOjE1OTkyMTM4MzYsIm5iZiI6MTU5OTIxMzgzNiwiZXhwIjoxNTk5MjE0MTM2LCJpc3MiOiJDcmF6eUN1YmUiLCJhdWQiOiJBbnlvbmUifQ.tkZ5NiYOZmaQrQEXqqFpzYCpJdMjlLCSRMoBd1BNCJg&#x27;}
+[32mINFO    [0m request:request.py:15 最终请求数据：{&quot;newUserName&quot;:&quot;1.22269&quot;}
 [32mINFO    [0m request:request.py:18 响应数据：{&quot;code&quot;:1,&quot;message&quot;:null,&quot;result&quot;:null}
-[32mINFO    [0m assert:Assert.py:9 期待结果：&quot;code&quot;:1
-[32mINFO    [0m assert:Assert.py:11 断言成功！<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_user.py::TestUser::test_user[接口序列：2.0---&gt;请求信息:user/updateUserName(昵称为空)]</td>
-          <td class="col-duration">0.31</td></tr>
-        <tr>
-          <td class="extra" colspan="3">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m request:request.py:33 请求ID：2
-[32mINFO    [0m request:request.py:34 请求信息：user/updateUserName(昵称为空)
-[32mINFO    [0m request:request.py:35 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/user/updateUserName
-[32mINFO    [0m request:request.py:36 请求头：{&quot;authorization&quot;:&quot;Bearer &quot;}
-[32mINFO    [0m request:request.py:37 请求数据：{&quot;newUserName&quot;:&quot;&quot;}
-[32mINFO    [0m gettoken:get_token.py:16 --------------------------------------------------
-[32mINFO    [0m gettoken:get_token.py:17 准备前置条件：
-[32mINFO    [0m gettoken:get_token.py:18 1.开始获取accessToken
-[32mINFO    [0m gettoken:get_token.py:23 2.获取accessToken成功
-[32mINFO    [0m request:request.py:14 最终请求头：{&#x27;authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEuMjIyNTkiLCJuYW1laWQiOjEwMDAwNDc4OCwiR2FtZUlkIjoiMCIsInN1YiI6IjEuMjIyNTkiLCJqdGkiOiI2OGJkZDdjNC1hMGZhLTQ1NzktYjU3Yi1lODEyY2I1ZjczNjQiLCJpYXQiOjE1OTU0MDE5OTMsIm5iZiI6MTU5NTQwMTk5MywiZXhwIjoxNTk1NDAyMjkzLCJpc3MiOiJDcmF6eUN1YmUiLCJhdWQiOiJBbnlvbmUifQ.KmfQLfTNqxU5aZcTwdmWPmVTqd0_hBFPqtTs3QHc6NY&#x27;}
-[32mINFO    [0m request:request.py:15 最终请求数据：{&quot;newUserName&quot;:&quot;&quot;}
-[32mINFO    [0m request:request.py:18 响应数据：{&quot;code&quot;:99,&quot;message&quot;:&quot;The NewUserName field is required.;The field NewUserName must be a string or array type with a minimum length of &#x27;1&#x27;.&quot;,&quot;result&quot;:null}
-[32mINFO    [0m assert:Assert.py:9 期待结果：&quot;code&quot;:99
-[32mINFO    [0m assert:Assert.py:11 断言成功！<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_user.py::TestUser::test_user[接口序列：3.0---&gt;请求信息:user/orderHistory(正常获取订单记录)]</td>
-          <td class="col-duration">0.34</td></tr>
-        <tr>
-          <td class="extra" colspan="3">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m request:request.py:33 请求ID：3
-[32mINFO    [0m request:request.py:34 请求信息：user/orderHistory(正常获取订单记录)
-[32mINFO    [0m request:request.py:35 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/user/orderHistory
-[32mINFO    [0m request:request.py:36 请求头：{&quot;authorization&quot;:&quot;Bearer &quot;}
-[32mINFO    [0m request:request.py:37 请求数据：{&quot;pageIndex&quot;:&quot;1&quot;,&quot;pageSize&quot;:&quot;10&quot;}
-[32mINFO    [0m gettoken:get_token.py:16 --------------------------------------------------
-[32mINFO    [0m gettoken:get_token.py:17 准备前置条件：
-[32mINFO    [0m gettoken:get_token.py:18 1.开始获取accessToken
-[32mINFO    [0m gettoken:get_token.py:23 2.获取accessToken成功
-[32mINFO    [0m request:request.py:14 最终请求头：{&#x27;authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEuMjIyNTkiLCJuYW1laWQiOjEwMDAwNDc4OCwiR2FtZUlkIjoiMCIsInN1YiI6IjEuMjIyNTkiLCJqdGkiOiJiMDMxNTFiMy0yMGUxLTQzMzUtYjVlZC0wNjYwZjgzZjVmNzQiLCJpYXQiOjE1OTU0MDE5OTQsIm5iZiI6MTU5NTQwMTk5NCwiZXhwIjoxNTk1NDAyMjk0LCJpc3MiOiJDcmF6eUN1YmUiLCJhdWQiOiJBbnlvbmUifQ.DtEzb_IVsfhsEiyNb64rdgchL0qMRzuSi2plj0HgCN0&#x27;}
-[32mINFO    [0m request:request.py:15 最终请求数据：{&quot;pageIndex&quot;:&quot;1&quot;,&quot;pageSize&quot;:&quot;10&quot;}
-[32mINFO    [0m request:request.py:18 响应数据：{&quot;code&quot;:1,&quot;message&quot;:null,&quot;result&quot;:{&quot;pageCount&quot;:0,&quot;totalCount&quot;:0,&quot;list&quot;:[]}}
-[32mINFO    [0m assert:Assert.py:9 期待结果：&quot;code&quot;:1
-[32mINFO    [0m assert:Assert.py:11 断言成功！<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_user.py::TestUser::test_user[接口序列：4.0---&gt;请求信息:user/orderHistory(页码为0)]</td>
-          <td class="col-duration">0.32</td></tr>
-        <tr>
-          <td class="extra" colspan="3">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m request:request.py:33 请求ID：4
-[32mINFO    [0m request:request.py:34 请求信息：user/orderHistory(页码为0)
-[32mINFO    [0m request:request.py:35 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/user/orderHistory
-[32mINFO    [0m request:request.py:36 请求头：{&quot;authorization&quot;:&quot;Bearer &quot;}
-[32mINFO    [0m request:request.py:37 请求数据：{&quot;pageIndex&quot;:&quot;0&quot;,&quot;pageSize&quot;:&quot;10&quot;}
-[32mINFO    [0m gettoken:get_token.py:16 --------------------------------------------------
-[32mINFO    [0m gettoken:get_token.py:17 准备前置条件：
-[32mINFO    [0m gettoken:get_token.py:18 1.开始获取accessToken
-[32mINFO    [0m gettoken:get_token.py:23 2.获取accessToken成功
-[32mINFO    [0m request:request.py:14 最终请求头：{&#x27;authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEuMjIyNTkiLCJuYW1laWQiOjEwMDAwNDc4OCwiR2FtZUlkIjoiMCIsInN1YiI6IjEuMjIyNTkiLCJqdGkiOiI2ODAwZDcwNi03OGNmLTQ5Y2UtODkzYy0yNzZiOTZhODVmYTMiLCJpYXQiOjE1OTU0MDE5OTQsIm5iZiI6MTU5NTQwMTk5NCwiZXhwIjoxNTk1NDAyMjk0LCJpc3MiOiJDcmF6eUN1YmUiLCJhdWQiOiJBbnlvbmUifQ.SHlI4OTDzSnsjDas9Q6h5sfHfFtYEIZ11DKaixAm2Z4&#x27;}
-[32mINFO    [0m request:request.py:15 最终请求数据：{&quot;pageIndex&quot;:&quot;0&quot;,&quot;pageSize&quot;:&quot;10&quot;}
-[32mINFO    [0m request:request.py:18 响应数据：{&quot;code&quot;:99,&quot;message&quot;:&quot;The field PageIndex must be between 1 and 2147483647.&quot;,&quot;result&quot;:null}
-[32mINFO    [0m assert:Assert.py:9 期待结果：&quot;code&quot;:99
-[32mINFO    [0m assert:Assert.py:11 断言成功！<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_user.py::TestUser::test_user[接口序列：5.0---&gt;请求信息:user/setUserLanguage(正常修改默认语言)]</td>
-          <td class="col-duration">0.30</td></tr>
-        <tr>
-          <td class="extra" colspan="3">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m request:request.py:33 请求ID：5
-[32mINFO    [0m request:request.py:34 请求信息：user/setUserLanguage(正常修改默认语言)
-[32mINFO    [0m request:request.py:35 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/user/setUserLanguage
-[32mINFO    [0m request:request.py:36 请求头：{&quot;authorization&quot;:&quot;Bearer &quot;}
-[32mINFO    [0m request:request.py:37 请求数据：{&quot;languageType&quot;:&quot;1&quot;}
-[32mINFO    [0m gettoken:get_token.py:16 --------------------------------------------------
-[32mINFO    [0m gettoken:get_token.py:17 准备前置条件：
-[32mINFO    [0m gettoken:get_token.py:18 1.开始获取accessToken
-[32mINFO    [0m gettoken:get_token.py:23 2.获取accessToken成功
-[32mINFO    [0m request:request.py:14 最终请求头：{&#x27;authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEuMjIyNTkiLCJuYW1laWQiOjEwMDAwNDc4OCwiR2FtZUlkIjoiMCIsInN1YiI6IjEuMjIyNTkiLCJqdGkiOiJjYmU0NDQ4ZS0xZjc1LTQ2ZGUtODQ1NC0zNjkxOTgyNTdmNjMiLCJpYXQiOjE1OTU0MDE5OTQsIm5iZiI6MTU5NTQwMTk5NCwiZXhwIjoxNTk1NDAyMjk0LCJpc3MiOiJDcmF6eUN1YmUiLCJhdWQiOiJBbnlvbmUifQ.mUcAdRZFL9GzCZdbHpUrnA6DNLW3xqiW_qOwYNdtZHA&#x27;}
-[32mINFO    [0m request:request.py:15 最终请求数据：{&quot;languageType&quot;:&quot;1&quot;}
-[32mINFO    [0m request:request.py:18 响应数据：{&quot;code&quot;:1,&quot;message&quot;:null,&quot;result&quot;:null}
-[32mINFO    [0m assert:Assert.py:9 期待结果：&quot;code&quot;:1
-[32mINFO    [0m assert:Assert.py:11 断言成功！<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_user.py::TestUser::test_user[接口序列：6.0---&gt;请求信息:user/setUserLanguage(语言类型为3)]</td>
-          <td class="col-duration">0.27</td></tr>
-        <tr>
-          <td class="extra" colspan="3">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m request:request.py:33 请求ID：6
-[32mINFO    [0m request:request.py:34 请求信息：user/setUserLanguage(语言类型为3)
-[32mINFO    [0m request:request.py:35 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/user/setUserLanguage
-[32mINFO    [0m request:request.py:36 请求头：{&quot;authorization&quot;:&quot;Bearer &quot;}
-[32mINFO    [0m request:request.py:37 请求数据：{&quot;languageType&quot;:&quot;3&quot;}
-[32mINFO    [0m gettoken:get_token.py:16 --------------------------------------------------
-[32mINFO    [0m gettoken:get_token.py:17 准备前置条件：
-[32mINFO    [0m gettoken:get_token.py:18 1.开始获取accessToken
-[32mINFO    [0m gettoken:get_token.py:23 2.获取accessToken成功
-[32mINFO    [0m request:request.py:14 最终请求头：{&#x27;authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEuMjIyNTkiLCJuYW1laWQiOjEwMDAwNDc4OCwiR2FtZUlkIjoiMCIsInN1YiI6IjEuMjIyNTkiLCJqdGkiOiJhMGIyN2E0Zi1mOWY5LTQzZDUtYTEyOS1lMjE4YjA3OGUyY2YiLCJpYXQiOjE1OTU0MDE5OTUsIm5iZiI6MTU5NTQwMTk5NSwiZXhwIjoxNTk1NDAyMjk1LCJpc3MiOiJDcmF6eUN1YmUiLCJhdWQiOiJBbnlvbmUifQ.8qntUd6kxyL1y9p0_wYVXY_E48X6JOmsS5FqkM194iY&#x27;}
-[32mINFO    [0m request:request.py:15 最终请求数据：{&quot;languageType&quot;:&quot;3&quot;}
-[32mINFO    [0m request:request.py:18 响应数据：{&quot;code&quot;:99,&quot;message&quot;:&quot;LanguageType的值在0-2之間&quot;,&quot;result&quot;:null}
-[32mINFO    [0m assert:Assert.py:9 期待结果：&quot;code&quot;:99
-[32mINFO    [0m assert:Assert.py:11 断言成功！<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_user.py::TestUser::test_user[接口序列：7.0---&gt;请求信息:user(获取用户信息)]</td>
-          <td class="col-duration">0.29</td></tr>
-        <tr>
-          <td class="extra" colspan="3">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m request:request.py:33 请求ID：7
-[32mINFO    [0m request:request.py:34 请求信息：user(获取用户信息)
-[32mINFO    [0m request:request.py:35 请求地址：https://uat.cubeace.com/gameflaskapi/api/v1/user
-[32mINFO    [0m request:request.py:36 请求头：{&quot;authorization&quot;:&quot;Bearer &quot;}
-[32mINFO    [0m request:request.py:37 请求数据：{&quot;languageType&quot;:&quot;1&quot;}
-[32mINFO    [0m gettoken:get_token.py:16 --------------------------------------------------
-[32mINFO    [0m gettoken:get_token.py:17 准备前置条件：
-[32mINFO    [0m gettoken:get_token.py:18 1.开始获取accessToken
-[32mINFO    [0m gettoken:get_token.py:23 2.获取accessToken成功
-[32mINFO    [0m request:request.py:24 最终请求头：{&#x27;authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEuMjIyNTkiLCJuYW1laWQiOjEwMDAwNDc4OCwiR2FtZUlkIjoiMCIsInN1YiI6IjEuMjIyNTkiLCJqdGkiOiJlYzViN2JmMy0wMTA2LTQ2MmItYjk4NC1jODc0MzRmZjlkY2YiLCJpYXQiOjE1OTU0MDE5OTUsIm5iZiI6MTU5NTQwMTk5NSwiZXhwIjoxNTk1NDAyMjk1LCJpc3MiOiJDcmF6eUN1YmUiLCJhdWQiOiJBbnlvbmUifQ._Ih5W4qLEAMJF2Qpg9c-n0JYPV0i-fHVcGSgEhP8W6Y&#x27;}
-[32mINFO    [0m request:request.py:25 最终请求数据：{&quot;languageType&quot;:&quot;1&quot;}
-[32mINFO    [0m request:request.py:28 响应数据：{&quot;code&quot;:1,&quot;message&quot;:null,&quot;result&quot;:{&quot;userId&quot;:100004788,&quot;gameId&quot;:0,&quot;defaultGameUserId&quot;:0,&quot;userName&quot;:&quot;1.22259&quot;,&quot;accountName&quot;:&quot;&quot;,&quot;isConfirmAccountName&quot;:false,&quot;avatar&quot;:&quot;&quot;,&quot;level&quot;:1,&quot;tokenCoin&quot;:0,&quot;userNameConfirmed&quot;:true,&quot;currentExperience&quot;:0,&quot;nextLevelExperience&quot;:10,&quot;walletInfo&quot;:{&quot;balance&quot;:0.0000,&quot;currencyCode&quot;:&quot;CNY&quot;},&quot;userGamesNews&quot;:[{&quot;newsId&quot;:64,&quot;title&quot;:&quot;《香港麻將大亨》革新玩法研發中&quot;,&quot;picUrl&quot;:&quot;https://uat.cubeace.com/staticFile/news/picUrl7449fabbc5464259b340df3001e12b0f.png&quot;,&quot;description&quot;:&quot;創意來源於玩家！ 《香港麻將大亨》革新玩法研發中&quot;,&quot;lastPlayedAtUtc&quot;:&quot;2020-04-22 17:09:50&quot;,&quot;newsCategoryName&quot;:&quot;&quot;,&quot;newsTagList&quot;:[{&quot;newsTagId&quot;:18,&quot;newsTagName&quot;:&quot;cubeage遊戲&quot;}]},{&quot;newsId&quot;:63,&quot;title&quot;:&quot;猜猜樂&quot;,&quot;picUrl&quot;:&quot;https://uat.cubeace.com/staticFile/news/picUrlcbc21d1e904a42d58883543be8c4b93b.png&quot;,&quot;description&quot;:&quot;如何用最少的金幣贏最多的鑽石&quot;,&quot;lastPlayedAtUtc&quot;:&quot;2020-04-22 17:06:55&quot;,&quot;newsCategoryName&quot;:&quot;&quot;,&quot;newsTagList&quot;:[{&quot;newsTagId&quot;:18,&quot;newsTagName&quot;:&quot;cubeage遊戲&quot;}]},{&quot;newsId&quot;:62,&quot;title&quot;:&quot;激活戰機必殺技！&quot;,&quot;picUrl&quot;:&quot;https://uat.cubeace.com/staticFile/news/picUrl623f7dcf1ee34d739f98b23bd00551a5.png&quot;,&quot;description&quot;:&quot;自由改造戰機，突破升級火力。&quot;,&quot;lastPlayedAtUtc&quot;:&quot;2020-04-22 17:04:16&quot;,&quot;newsCategoryName&quot;:&quot;&quot;,&quot;newsTagList&quot;:[{&quot;newsTagId&quot;:18,&quot;newsTagName&quot;:&quot;cubeage遊戲&quot;}]},{&quot;newsId&quot;:45,&quot;title&quot;:&quot;萬元港幣狂送！  《香港麻將大亨》“你打牌我買單”活動開啟&quot;,&quot;picUrl&quot;:&quot;https://uat.cubeace.com/staticFile/news/picUrl6edabe817bfe4634b4619c94f56729da.png&quot;,&quot;description&quot;:&quot;《香港麻將大亨》萬元港幣狂送！&quot;,&quot;lastPlayedAtUtc&quot;:&quot;2020-01-02 07:57:08&quot;,&quot;newsCategoryName&quot;:&quot;大亨系列遊戲&quot;,&quot;newsTagList&quot;:[{&quot;newsTagId&quot;:20,&quot;newsTagName&quot;:&quot;大亨系列&quot;}]}]}}
 [32mINFO    [0m assert:Assert.py:9 期待结果：&quot;code&quot;:1
 [32mINFO    [0m assert:Assert.py:11 断言成功！<br/></div></td></tr></tbody></table></body></html>

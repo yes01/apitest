@@ -1,7 +1,9 @@
 from Common.config import ReadConfig
 import json
 import requests
+from Common.base import Base
 from Common.logger import Logger
+
 
 logger = Logger(logger="gettoken").getlog()
 
